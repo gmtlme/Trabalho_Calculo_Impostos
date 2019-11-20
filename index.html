@@ -1,0 +1,48 @@
+<html>
+
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href = "./css/style.css">
+		<title>Meu Site</title>
+	</head>
+
+	<body>
+		
+		<main>
+
+			<div id="toForm">
+
+				<form id="form">
+					<div class="divs">
+					<label class="labels" for="nome">Nome:</label>
+					<input type="text" id="nome" value=""/>
+					</div>
+					<div class="divs">
+					<label class="labels" for="salario">Salário:</label>
+					<input type="number" id="salario" value=""/>
+					</div>
+					<input id="button" onclick="calc()" type="button"  value="Send"/>
+				</form>
+			</div>
+
+
+			<div id="toTable">
+				<table border="1px" id="table"> 
+					<tr><th>Nome</th> <th>Salario Bruto</th> <th>Desconto INSS(%)</th> <th>Desconto INSS</th> <th>Desconto IRPF(%)</th> <th>Desconto IRPF</th><th>Salário Líquido</th></tr>
+
+				</table>
+				<table border="1px" id="tablemobile">
+
+					<tr><th>Nome</th> <th>Salário Líquido</th></tr>
+				</table>
+			</div>
+
+			<div id="toConclusion"><p>Conclui-se neste trabalho que o governo é muito ladrão!</p></div>
+		
+		</main>
+
+		<script src="./scripts/app.js"></script>
+	</body>
+
+</html>

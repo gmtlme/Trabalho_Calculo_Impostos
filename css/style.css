@@ -1,0 +1,182 @@
+
+
+@media screen and (max-width: 1023px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    #toForm {
+        background: ghostwhite;
+        width: 100%;
+        height: 59vw;
+    }
+    .divs {
+        width: 89%;
+        /* margin: 0vw; */
+        float: left;
+        margin-top: 8vw;
+        font-size: 7vw;
+        margin-left: 10%;
+        font-family: cursive;
+    }
+    #nome {
+        color: navy;
+        height: 10vw;
+        width: 59%;
+    }
+    #salario {
+        color: navy;
+        height: 10vw;
+        width: 54.3%;
+    }
+    .labels{
+        
+    
+    }
+    #button {
+        width: 40%;
+        height: 12vw;
+        margin-top: 5vw;
+        margin-left: 30%;
+    }
+    body{
+    
+        background-color: lightsteelblue;
+    }
+    #toTable {
+        width: 100%;
+        /* border: 1px solid; */
+        min-height: 143vw;
+        background-color: ghostwhite;
+        margin-top: 0vw;
+    }
+    #table {
+        display: none;
+    }
+    #toConclusion {
+        display: none;
+    }
+    
+    #tablemobile{
+            width: 100%;
+            text-align: center;
+        
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    
+#toForm {
+    width: 50%;
+    /* border: 1px solid; */
+    height: 14vw;
+    margin-top: 4vw;
+    margin-left: 25%;
+    border-radius: 8px;
+    background: ghostwhite;
+}
+.divs{
+    float: left;
+
+    margin-left: 30%;
+    margin-top: 2vw;
+    height: 2.3vw;
+    width: 40%;
+}
+#nome {
+    width: 68%;
+    font-size: 1.3vw;
+    height: 1.5vw;
+    color: navy;
+}
+#salario{
+    font-size: 1.3vw;
+    height: 1.5vw;
+    width: 56%;
+    color: navy;
+}
+.labels{
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+#button {
+    /* float: left; */
+    margin-top: 6.3vw;
+    /* position: absolute; */
+    height: 2vw;
+    width: 13%;
+}
+body{
+
+    background-color: lightsteelblue;
+}
+#toTable {
+    /* border: 1px solid; */
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    /* height: 27vw; */
+    width: 80%;
+    margin-left: 10%;
+    background-color: ghostwhite;
+    border-radius: 8px;
+    min-height: 20vw;
+}
+#table {
+        /* border: 1px solid; */
+        margin-left: 14%;
+        width: 72%;
+        text-align: center;
+        display: block;
+    }
+#toConclusion{
+
+        /* border: 1px solid; */
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 2vw;
+        background-color: ghostwhite;
+        border-radius: 4px;
+        height: 3vw;
+
+}
+#toconclusion p{
+
+    font-family: cursive;
+    font-size: 1.5vw;
+    /* margin-left: 10%; */
+    text-align: center;
+    /* margin-top: 2vw; */
+
+}
+#tablemobile{
+    display: none;
+}
+}
