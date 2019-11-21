@@ -27,6 +27,7 @@ function calc(){
      porcentagemInss = 8;
      descontoINSS = salarioBruto * 8 / 100
      salarioDescontado = salarioBruto - ((salarioBruto * 8) / 100)
+     
 
     }
     else if(salarioBruto >= 1751.82 && salarioBruto <= 2912.72){
@@ -34,6 +35,8 @@ function calc(){
         porcentagemInss = 9;
         descontoINSS = salarioBruto * 8 / 100
         salarioDescontado = salarioBruto - ((salarioBruto * 9) / 100)
+        
+        
         
     }
     else if(salarioBruto >= 2919.73 && salarioBruto <= 5839.45){
@@ -52,7 +55,6 @@ function calc(){
 
         porcentagemIRPF = 0;
         descontoIRPF = 0;
-        salarioDescontado += salarioBruto;
 
     }
     else if(salarioBruto >= 1903.99 && salarioBruto <= 2826.65){
@@ -85,9 +87,7 @@ function calc(){
     }
 
     salarioFinal = salarioDescontado;
-    salarioDescontado = parseFloat(salarioDescontado.toFixed(2));
-    salarioFinal = parseFloat(salarioFinal.toFixed(2));
-
+ 
    cell1.innerHTML = `${nome}`;
    cell1mobile.innerHTML = `${nome}`;
    cell2.innerHTML = `R$ ${salarioBruto}`;
